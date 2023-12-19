@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="IT_3S_Kursovik.PauseUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IT_3S_Kursovik"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="400">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="600" Stroke="Black" VerticalAlignment="Center" Width="400"/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Меню Паузы"/>
+            <!-- Добавьте здесь элементы меню паузы, такие как кнопки "Продолжить", "Выход" и т.д. -->
+        </StackPanel>
+    </Grid>
+</UserControl>
