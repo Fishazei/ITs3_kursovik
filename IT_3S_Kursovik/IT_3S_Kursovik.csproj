@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\fon.png" />
+    <None Remove="assets\hook-empty.png" />
+    <None Remove="assets\hook.png" />
+    <None Remove="assets\icon.ico" />
+    <None Remove="assets\kt.png" />
+    <None Remove="assets\pb.png" />
+    <None Remove="assets\Pixel-Art-1366x768.png" />
+    <None Remove="assets\rope.png" />
+    <None Remove="assets\waterthings\d.png" />
+    <None Remove="assets\waterthings\f1.png" />
+    <None Remove="assets\waterthings\f2.png" />
+    <None Remove="assets\waterthings\f3.png" />
+    <None Remove="assets\waterthings\peredfon.png" />
+    <None Remove="assets\waterthings\tr.png" />
+    <None Remove="assets\waterthings\tr2.png" />
+    <None Remove="assets\waterthings\tr3.png" />
+    <None Remove="FonForMenu.jpg" />
+    <None Remove="hook.png" />
+    <None Remove="kt.png" />
+    <None Remove="Pixel-Art-1366x768.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\waterthings\d.png" />
+    <Resource Include="assets\waterthings\f1.png" />
+    <Resource Include="assets\waterthings\f2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\fon.png" />
+    <Resource Include="assets\hook-empty.png" />
+    <Resource Include="assets\hook.png" />
+    <Resource Include="assets\icon.ico" />
+    <Resource Include="assets\kt.png" />
+    <Resource Include="assets\pb.png" />
+    <Resource Include="assets\FonForMenu.jpg" />
+    <Resource Include="assets\Pixel-Art-1366x768.png" />
+    <Resource Include="assets\rope.png" />
+    <Resource Include="assets\waterthings\f3.png" />
+    <Resource Include="assets\waterthings\peredfon.png" />
+    <Resource Include="assets\waterthings\tr.png" />
+    <Resource Include="assets\waterthings\tr2.png" />
+    <Resource Include="assets\waterthings\tr3.png" />
+    <Resource Include="hook.png" />
+    <Resource Include="kt.png" />
+  </ItemGroup>
+
+</Project>

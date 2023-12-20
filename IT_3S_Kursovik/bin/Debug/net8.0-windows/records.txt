@@ -1,0 +1,7 @@
+avto,4660
+avto,4194
+avto,2370
+avto,1983
+avto,0
+Hazenburger,-1261
+avto,-1381

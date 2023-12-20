@@ -1,0 +1,204 @@
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GlobalMapPage.g.cs
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GlobalMapPage.baml
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\fisha\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GlobalMapPage.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\Town.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GlobalMapPage.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\Town.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\TownPage.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\TownPage.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\TowmUC.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\TowmUC.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\dns\source\repos\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\fisha\OneDrive\Рабочий стол\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik — копия\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.exe
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.deps.json
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.runtimeconfig.json
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfoInputs.cache
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.AssemblyInfo.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.csproj.CoreCompileInputs.cache
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\refint\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\DifficultyWindow.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\MenuPage.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\recordsUC.g.cs
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\DifficultyWindow.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\MenuPage.baml
+C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\recordsUC.baml
