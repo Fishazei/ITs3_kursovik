@@ -21,7 +21,8 @@ namespace IT_3S_Kursovik.classes
         }
         public override string ToString()
         {
-            return name + " " + points.ToString() + "\n";
+            while (name.Length < 9) { name = name.Insert(name.Length, " "); }
+            return name + " |  " + points.ToString() + "\n";
         }
     }
 
@@ -39,26 +40,28 @@ namespace IT_3S_Kursovik.classes
             int i;
             for (i = 0; i < records.Count; i++)
                 if (records[i].points < newRez.points) break;
-            if (i < 20)
+            if (i < 10)
             {
                 records.Insert(i, newRez);
                 SaveRecords("records.txt");
             }
-            if (records.Count >= 20)
+            if (records.Count >= 10)
             {
-                records.RemoveRange(20, records.Count -20);
+                records.RemoveRange(10, records.Count - 10);
             }
         }
 
-        public List<Record> GetRecords()
+        public string GetRecords()
         {
             string str = null;
+            int i = 0;
             foreach (Record rec in records)
             {
-                str += rec.ToString();
+                i++;
+                if (i < 10) str += i.ToString() + ".  " + rec.ToString();
+                else str += i.ToString() + ". " + rec.ToString();
             }
-            MessageBox.Show(str);
-            return records;
+            return str;
         }
 
         // Метод для записи списка структур в файл в формате CSV

@@ -7,6 +7,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Media;
 using System.Windows.Controls;
 using System.Security.AccessControl;
+using System.Security.Cryptography.X509Certificates;
 
 namespace IT_3S_Kursovik.classes
 {
@@ -20,6 +21,13 @@ namespace IT_3S_Kursovik.classes
         protected ImageSource texture = null;
         public double Width { get; set; }
         public double Height { get; set; }
+
+        public void SetImage(Image image)
+        {
+            myImage = image;
+            myImage.Source = texture;
+        }
+
     }
     internal class Hook : MovingObject
     {
@@ -57,7 +65,7 @@ namespace IT_3S_Kursovik.classes
         FType type;
         FStatus status;
         public FStatus Status { get { return status; } }
-        int points;
+        public int points;
         static readonly Dictionary<FType, int> Widthes = new()
         {
             {FType.Som ,     148 },
@@ -68,6 +76,7 @@ namespace IT_3S_Kursovik.classes
             {FType.Trash1 ,  101 },
             {FType.Trash2 ,  140 }
         };
+
         public Fish(FStatus fStatus, FType fType, double y, int speed, int points)
         {
             Y = y;
@@ -87,14 +96,13 @@ namespace IT_3S_Kursovik.classes
 
             texture = Images.GetImage(type);
         }
+        public FType GetType()
+        {
+            return type;
+        }
         public void ChangeStat(FStatus fstatus)
         {
             status = fstatus;
-        }
-        public void SetImage(Image image)
-        {
-            myImage = image;
-            myImage.Source = texture;
         }
         public bool Move(double Y, bool AHooked)
         {
@@ -148,5 +156,29 @@ namespace IT_3S_Kursovik.classes
         public delegate void Handler(int alpha);
         public event Handler Deliver;
 
+    }
+    //Облако утреннего тумана
+    internal class Fog : MovingObject
+    {
+
+        public Fog(double x, double y, int speed) 
+        {
+            X = x;
+            Y = y;
+            Speed = speed;
+            texture = new BitmapImage(new Uri("assets/1.png", UriKind.RelativeOrAbsolute));
+        }
+
+        public void Move()
+        {
+            Random random = new Random();
+            if (random.Next(1000) == 1 || Y < 10 || Y > 500)
+                Speed = -Speed;
+
+            Y += Speed / 2;
+            X += 4 * random.NextDouble() - 2;
+            Canvas.SetTop(myImage, Y);
+            Canvas.SetLeft(myImage, X);
+        }
     }
 }

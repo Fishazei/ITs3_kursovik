@@ -44,12 +44,20 @@ namespace IT_3S_Kursovik
             myOptions.spawnProd = 5;
             myOptions.fishChan = 50;
 
-            gameState = new GameState(myOptions, RiverHold, rec1, rope);
+            if (myOptions.mod == 2) overlayGrid.Visibility = Visibility.Visible;
+            else if (myOptions.mod == 3)
+            {
 
+            }
+
+            DinB.IsEnabled = false;
+            DinB.Visibility = Visibility.Collapsed;
+            gameState = new GameState(myOptions, RiverHold, overlayGrid, rec1, rope);
             gameState.ScoreUp += UpdateIO;
+            gameState.TimeToDinamite += DBActivate;
 
-            timer = new DispatcherTimer();
             // Создание таймера
+            timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(10);
             //Привязка к таймеру событий
             timer.Tick += TimerTick;
@@ -97,7 +105,6 @@ namespace IT_3S_Kursovik
             {
                 // Таймер истек, делаем необходимые действия
                 timer.Stop();
-                MessageBox.Show("Таймер истек!");
                 gameState.status = GStatus.End;
                 NavigationService.Navigate(menuPage);
                 GameOver(gameState.Score);
@@ -152,6 +159,19 @@ namespace IT_3S_Kursovik
             
         }
 
+        //Динамит
+        private void DClick(object sender, RoutedEventArgs e)
+        {
+            gameState.UseDinamite();
+            DinB.IsEnabled = false;
+            DinB.Visibility = Visibility.Collapsed;
+            UpdateIO(gameState.Score);
+        }
+        private void DBActivate()
+        {
+            DinB.IsEnabled = true;
+            DinB.Visibility = Visibility.Visible;
+        }
 
         public delegate void Handler(int alpha);
         public event Handler GameOver;

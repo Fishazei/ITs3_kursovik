@@ -9,13 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="assets\1.png" />
     <None Remove="assets\fon.png" />
     <None Remove="assets\hook-empty.png" />
     <None Remove="assets\hook.png" />
     <None Remove="assets\icon.ico" />
     <None Remove="assets\kt.png" />
     <None Remove="assets\pb.png" />
+    <None Remove="assets\peredfon.png" />
     <None Remove="assets\Pixel-Art-1366x768.png" />
+    <None Remove="assets\r.png" />
     <None Remove="assets\rope.png" />
     <None Remove="assets\waterthings\d.png" />
     <None Remove="assets\waterthings\f1.png" />
@@ -32,6 +35,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="assets\1.png" />
+    <Resource Include="assets\peredfon.png" />
+    <Resource Include="assets\r.png" />
     <Resource Include="assets\waterthings\d.png" />
     <Resource Include="assets\waterthings\f1.png" />
     <Resource Include="assets\waterthings\f2.png" />

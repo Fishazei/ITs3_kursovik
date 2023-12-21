@@ -31,8 +31,10 @@ namespace IT_3S_Kursovik
 
         public MenuPage()
         {
-            record = new Record(" ", 0);
+            record = new Record("Avto", 0);
             InitializeComponent();
+
+            rec.Closed += recUCClosed;
         }
 
         private void ButtonClickNew(object sender, RoutedEventArgs e)
@@ -57,9 +59,18 @@ namespace IT_3S_Kursovik
 
         private void ButtonClickRecords(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("В разработке");
-            
-            recordsHandler.GetRecords();
+            rec.Records = recordsHandler.GetRecords();
+            ToggleButtonsState(false);
+            rec.Visibility = Visibility.Visible;
+        }
+
+        private void ToggleButtonsState(bool isEnable)
+        {
+            SayMyName.IsEnabled = isEnable;
+            NewGame.IsEnabled = isEnable;
+            Records.IsEnabled = isEnable;
+            Exit.IsEnabled = isEnable;
+            Best.IsEnabled = isEnable;
         }
 
         private void ButtonClickFight(object sender, RoutedEventArgs e)
@@ -74,7 +85,13 @@ namespace IT_3S_Kursovik
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            record.name = SayMyName.Text;
+            if (SayMyName.Text != null) record.name = SayMyName.Text;
+            else { record.name = "Avto"; SayMyName.Text = "Avto"; }
+        }
+
+        private void recUCClosed(object sender, EventArgs e)
+        {
+            ToggleButtonsState(true);
         }
     }
 }

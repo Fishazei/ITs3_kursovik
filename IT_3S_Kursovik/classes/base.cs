@@ -165,17 +165,22 @@ namespace IT_3S_Kursovik.classes
         private Options myOptions;
         public int Score { get; set; }
         public GStatus status;
+        public bool IsDinamite = false;
         //Рыбы
         public Fish CatchedFish = null;
         FishGenerator fishGenerator;
         List<Fish> fishes = null;
+        //Туман
+        Fog[] fogs = null;
+
 
         //Крюк
         Hook hook;
         Image myRope;
         Canvas canvas;
+        Canvas OvCanvas;
 
-        public GameState(Options myOptions, Canvas RiverCanvas, Image hook, Image rope)
+        public GameState(Options myOptions, Canvas RiverCanvas, Canvas OverlayCanvas, Image hook, Image rope)
         {
             status = GStatus.Go;
             this.hook = new Hook(hook) { X = 100, Y = 203 };
@@ -185,10 +190,43 @@ namespace IT_3S_Kursovik.classes
             Score = 0;
             this.myOptions = myOptions;
             canvas = RiverCanvas;
+            OvCanvas = OverlayCanvas;
             myRope = rope;
 
             fishes = new List<Fish>();
+            if (myOptions.mod == 2)
+            {
+                fogs = new Fog[6];
+                for (int i = 0; i < 5; i += 2)
+                {
+                    fogs[i] = GenerateFog(10, 78*i+10);
+                    fogs[1 + i] = GenerateFog(960, 78 * i + 10);
+                }
+            }
             GenerateNewFish();
+        }
+
+        //Создаём туман
+        public Fog GenerateFog(double x, double y)
+        {
+            Random random = new Random();
+            Fog fog = new Fog(x, y, random.Next(10));
+            fog.Height = 78;
+            fog.Width = 230;
+
+            Image fogImage = new Image
+            {
+                Width = fog.Width,
+                Height = fog.Height
+            };
+
+            Canvas.SetLeft(fogImage, x);
+            Canvas.SetTop(fogImage, y);
+            fog.SetImage(fogImage);
+
+            OvCanvas.Children.Add(fogImage);
+
+            return fog;
         }
 
         //Добавление рыбов в реку
@@ -207,8 +245,16 @@ namespace IT_3S_Kursovik.classes
                 if (fish.Move(hook.Y, hook.Eaten) && !hook.Eaten)
                 {
                     CatchedFish = fish;
+                    if (CatchedFish.GetType() == FType.Dinamite) CatchedFish.Deliver += WeDiliveredItD;
                     CatchedFish.Deliver += WeDiliveredIt;
                     hook.MakeHooked();
+                }
+            }
+            if (myOptions.mod == 2)
+            {
+                foreach(var fog in fogs)
+                {
+                    fog.Move();
                 }
             }
             for (int i = 0; i < fishes.Count; i++)
@@ -228,6 +274,23 @@ namespace IT_3S_Kursovik.classes
             canvas.Children.Remove(CatchedFish.MyImage);
             CatchedFish = null;
             hook.Hooked = false;
+        }
+        //Доставили динамит
+        public void WeDiliveredItD(int vat)
+        {
+            TimeToDinamite();
+            CatchedFish.Deliver -= WeDiliveredItD;
+        }
+        //Использовали динамит
+        public void UseDinamite()
+        {
+            IsDinamite = true;
+            for (int i = 0; i < fishes.Count; i++)
+            {
+                canvas.Children.Remove(fishes[i].MyImage);
+                if (fishes[i].points > 0) Score += fishes[i].points;
+            }
+            fishes.Clear();
         }
 
         //Движение 
@@ -252,5 +315,8 @@ namespace IT_3S_Kursovik.classes
 
         public delegate void Handler(int alpha);
         public event Handler ScoreUp;
+
+        public delegate void VHandler();
+        public event VHandler TimeToDinamite;
     }
 }

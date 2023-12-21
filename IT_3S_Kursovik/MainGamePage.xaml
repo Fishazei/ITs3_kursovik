@@ -46,6 +46,9 @@
         <Button Style="{StaticResource SomeButtonStyle}" Click="PauseButtonClick" HorizontalAlignment="Left" Margin="1037,5,0,0" VerticalAlignment="Top" Background="#00707070" BorderBrush="#00707070" Height="75" Width="75">
             <Image Source="/assets/pb.png" Height="75" Width="75"/>
         </Button>
+        <Button x:Name="DinB" Style="{StaticResource SomeButtonStyle}" HorizontalAlignment="Left" Height="75" Margin="941,7,0,0" VerticalAlignment="Top" Width="75" Click="DClick">
+            <Image Source="/assets/waterthings/d.png" RenderTransformOrigin="0.5,0.575" Height="75" Width="75"/>
+        </Button>
 
         <!-- Удочка -->
         <Canvas x:Name="MainCanvas" Margin="568,0,568,0" Grid.RowSpan="2" >
@@ -55,6 +58,12 @@
 
         <!-- Место для рыбов -->
         <Canvas x:Name="RiverHold" Grid.Row="1"  Loaded="GameCanvasLoaded">
+
+        </Canvas>
+
+        <Image Canvas.Left="305" Canvas.Top="410" Source="/assets/peredfon.png" Margin="-168,134,-134,-91" Grid.Row="1"/>
+
+        <Canvas Name="overlayGrid" Background="#A5ECECEC" Grid.Row="1" Visibility="Collapsed">
 
         </Canvas>
     </Grid>

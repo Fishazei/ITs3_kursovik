@@ -144,20 +144,16 @@ C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.dll
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\bin\Debug\net8.0-windows\IT_3S_Kursovik.pdb
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.g.cs
-C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.cache
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik_MarkupCompile.lref
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\CircusTimerUC.baml
-C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\DifficultyWindow.baml
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainGamePage.baml
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\MenuPage.baml
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\PauseUC.baml
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.g.resources
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.GeneratedMSBuildEditorConfig.editorconfig
@@ -202,3 +198,10 @@ C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovi
 C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\DifficultyWindow.baml
 C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\MenuPage.baml
 C:\Users\fisha\OneDrive\Рабочий стол\ITs3_kursovik-main\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\recordsUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\DifficultyWindow.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\MenuPage.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\recordsUC.g.cs
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\DifficultyWindow.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\MenuPage.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\menu\recordsUC.baml
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.sourcelink.json
