@@ -172,13 +172,11 @@ namespace IT_3S_Kursovik.classes
         public void Move()
         {
             Random random = new Random();
-            if (random.Next(1000) == 1 || Y < 10 || Y > 500)
+            if (random.Next(100) == 1 || Y < 10 || Y > 500)
                 Speed = -Speed;
 
-            Y += Speed / 2;
-            X += 4 * random.NextDouble() - 2;
+            Y += (double)Speed / 2;
             Canvas.SetTop(myImage, Y);
-            Canvas.SetLeft(myImage, X);
         }
     }
 }

@@ -7,10 +7,25 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="400">
     <Grid>
-        <Rectangle HorizontalAlignment="Center" Height="600" Stroke="Black" VerticalAlignment="Center" Width="400"/>
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Меню Паузы"/>
-            <!-- Добавьте здесь элементы меню паузы, такие как кнопки "Продолжить", "Выход" и т.д. -->
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="52*"/>
+            <RowDefinition Height="497*"/>
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/assets/r.png"></ImageBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="0,10,0,0" Grid.Row="1" 
+                   TextWrapping="Wrap" Text="ПАУЗА" 
+                   FontSize="48"
+                   FontFamily="Better VCR Regular"
+                   VerticalAlignment="Top"/>
+        <Button x:Name="Exit1"
+            Content="Выйти" HorizontalAlignment="Center" 
+                Height="90" Margin="0,304,0,0" Grid.Row="1" 
+                VerticalAlignment="Top" Width="126"
+                FontFamily="Better VCR Regular" Click="Button_Click"/>
+
     </Grid>
 </UserControl>

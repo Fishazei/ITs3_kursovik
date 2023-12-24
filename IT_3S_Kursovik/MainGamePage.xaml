@@ -40,8 +40,6 @@
 
         <local:CircusTimerUC x:Name="cpb_uc" Margin="69,90,1007,497" Grid.RowSpan="2" />
 
-        <!-- Меню паузы -->
-        <local:PauseUC x:Name="PauseMenuUC" Margin="400,37,400,37" Grid.RowSpan="2" RenderTransformOrigin="0.502,0.52" Visibility="Collapsed" />
 
         <Button Style="{StaticResource SomeButtonStyle}" Click="PauseButtonClick" HorizontalAlignment="Left" Margin="1037,5,0,0" VerticalAlignment="Top" Background="#00707070" BorderBrush="#00707070" Height="75" Width="75">
             <Image Source="/assets/pb.png" Height="75" Width="75"/>
@@ -52,7 +50,7 @@
 
         <!-- Удочка -->
         <Canvas x:Name="MainCanvas" Margin="568,0,568,0" Grid.RowSpan="2" >
-            <Image x:Name="rope" HorizontalAlignment="Center" Height="144" Width="64" VerticalAlignment="Top" Canvas.Left="0" Canvas.Top="60" Source="/assets/rope.png" Stretch="Fill"/>
+            <Image x:Name="rope" HorizontalAlignment="Center" Height="198" Width="64" VerticalAlignment="Top" Canvas.Left="0" Canvas.Top="10" Source="/assets/rope.png" Stretch="Fill"/>
             <Image x:Name="rec1" HorizontalAlignment="Left"   Height="98"  Width="64" VerticalAlignment="Top" Canvas.Left="0" Canvas.Top="203" Source="/assets/hook.png"/>
         </Canvas>
 
@@ -63,8 +61,17 @@
 
         <Image Canvas.Left="305" Canvas.Top="410" Source="/assets/peredfon.png" Margin="-168,134,-134,-91" Grid.Row="1"/>
 
-        <Canvas Name="overlayGrid" Background="#A5ECECEC" Grid.Row="1" Visibility="Collapsed">
-
+        <Canvas Name="overlayGrid" Grid.Row="1" Visibility="Collapsed">
+            <Canvas.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FFECECEC" Offset="0"/>
+                    <GradientStop Color="#00ECECEC" Offset="0.1"/>
+                    <GradientStop Color="#A5ECECEC" Offset="0.9"/>
+                    <GradientStop Color="#FFECECEC" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
         </Canvas>
+
+        <local:PauseUC x:Name="PauseMenuUC" Margin="400,37,400,37" Grid.RowSpan="2" RenderTransformOrigin="0.502,0.52" Visibility="Collapsed" />
     </Grid>
 </Page>

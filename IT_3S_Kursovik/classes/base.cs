@@ -96,7 +96,7 @@ namespace IT_3S_Kursovik.classes
 
         public Fish GenerateRandomFish()
         {
-            if (random.Next(512) < options.spawnProd)
+            if (random.Next(1024) < options.spawnProd)
             {
                 FStatus randomStatus = (FStatus)random.Next(2);
                 FType randomType;
@@ -122,11 +122,11 @@ namespace IT_3S_Kursovik.classes
                         randomType = FType.Sus;
                 }
                 int level = random.Next(5);            
-                int randY = random.Next(100);
+                int randY = random.Next(100) + 25;
 
                 Fish newFish = new Fish(randomStatus,  
                                         randomType, 
-                                        level * 100 + randY,   
+                                        level * 95 + randY,   
                                         2 + level / 2 + random.Next(3), 
                                         Ribis[randomType] + randY - 50);
 
@@ -196,11 +196,12 @@ namespace IT_3S_Kursovik.classes
             fishes = new List<Fish>();
             if (myOptions.mod == 2)
             {
-                fogs = new Fog[6];
-                for (int i = 0; i < 5; i += 2)
+                fogs = new Fog[10];
+                Random random = new Random();
+                for (int i = 0; i < 9; i += 2)
                 {
-                    fogs[i] = GenerateFog(10, 78*i+10);
-                    fogs[1 + i] = GenerateFog(960, 78 * i + 10);
+                    fogs[i] = GenerateFog(random.Next(20), 50 * i + 10);
+                    fogs[1 + i] = GenerateFog(870 + random.Next(20), 50 * i + 10);
                 }
             }
             GenerateNewFish();
@@ -210,9 +211,9 @@ namespace IT_3S_Kursovik.classes
         public Fog GenerateFog(double x, double y)
         {
             Random random = new Random();
-            Fog fog = new Fog(x, y, random.Next(10));
-            fog.Height = 78;
-            fog.Width = 230;
+            Fog fog = new Fog(x, y, random.Next(3)+1);
+            fog.Height = 156;
+            fog.Width = 460;
 
             Image fogImage = new Image
             {
@@ -296,19 +297,19 @@ namespace IT_3S_Kursovik.classes
         //Движение 
         public void MovePlayer(object sender, EventArgs e)
         {
-            if (Keyboard.IsKeyDown(Key.W) && (hook.Y - hook.Speed > 80))
+            if (Keyboard.IsKeyDown(Key.W) && (hook.Y - hook.Speed > 50))
             {
-                if (hook.Eaten && !hook.Hooked && hook.Y < 120 ) hook.ChangeStat();
+                if (hook.Eaten && !hook.Hooked && hook.Y < 90 ) hook.ChangeStat();
                 hook.Y -= hook.Speed;
                 Canvas.SetTop(hook.MyImage, hook.Y);
-                myRope.Height = Canvas.GetTop(hook.MyImage) - 59;
+                myRope.Height = Canvas.GetTop(hook.MyImage);
                 if (CatchedFish != null) CatchedFish.MoveY(hook.Y);
             }
             if (Keyboard.IsKeyDown(Key.S) && (hook.Y - hook.Speed < 555))
             {
                 hook.Y += hook.Speed;
                 Canvas.SetTop(hook.MyImage, hook.Y);
-                myRope.Height = Canvas.GetTop(hook.MyImage) - 59;
+                myRope.Height = Canvas.GetTop(hook.MyImage);
                 if (CatchedFish != null) CatchedFish.MoveY(hook.Y);
             }   
         }

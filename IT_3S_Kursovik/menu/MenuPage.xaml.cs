@@ -70,7 +70,6 @@ namespace IT_3S_Kursovik
             NewGame.IsEnabled = isEnable;
             Records.IsEnabled = isEnable;
             Exit.IsEnabled = isEnable;
-            Best.IsEnabled = isEnable;
         }
 
         private void ButtonClickFight(object sender, RoutedEventArgs e)

@@ -1,21 +1,9 @@
 ﻿using IT_3S_Kursovik.classes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Animation;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading; //Таймер
 
 namespace IT_3S_Kursovik
@@ -41,20 +29,27 @@ namespace IT_3S_Kursovik
             this.menuPage = menuPage;
             
             myOptions.mod = diff;
-            myOptions.spawnProd = 5;
-            myOptions.fishChan = 50;
-
-            if (myOptions.mod == 2) overlayGrid.Visibility = Visibility.Visible;
-            else if (myOptions.mod == 3)
+            if (diff == 1)
             {
+                myOptions.spawnProd = 5;
+                myOptions.fishChan = 55;
+            }
+            else
+            {
+                myOptions.spawnProd = 8;
+                myOptions.fishChan = 65;
 
             }
+            if (myOptions.mod == 2) overlayGrid.Visibility = Visibility.Visible;
 
             DinB.IsEnabled = false;
             DinB.Visibility = Visibility.Collapsed;
             gameState = new GameState(myOptions, RiverHold, overlayGrid, rec1, rope);
             gameState.ScoreUp += UpdateIO;
             gameState.TimeToDinamite += DBActivate;
+
+            PauseMenuUC.END += Stop;
+            PauseMenuUC.GO += Resume;
 
             // Создание таймера
             timer = new DispatcherTimer();
@@ -142,11 +137,24 @@ namespace IT_3S_Kursovik
 
         #endregion
 
+        private void Stop()
+        {
+            timer.Stop();
+            gameState.status = GStatus.End;
+            NavigationService.Navigate(menuPage);
+            GameOver(gameState.Score);
+        }
+        private void Resume()
+        {
+
+        }
         //События обработки нажатий клавиш и кнопок
         private void PauseButtonClick(object sender, RoutedEventArgs e)
         {
             ToggleCountdown();
-            PauseMenuUC.Visibility = PauseMenuUC.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
+            bool flood = PauseMenuUC.Visibility != Visibility.Visible;
+            PauseMenuUC.Visible(flood);
+
 
         }
         private void WindowKeyDown(object sender, KeyEventArgs e)

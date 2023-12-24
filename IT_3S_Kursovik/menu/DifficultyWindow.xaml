@@ -21,11 +21,11 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <SolidColorBrush x:Key="Button.Static.Background" Color="#4e05ad"/>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FF3F2514"/>
         <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#5900ba"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FF3F2514"/>
         <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#6b2fbf"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FF3F2514"/>
         <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
         <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
         <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
@@ -70,7 +70,7 @@
     </Window.Resources>
 
 
-    <Grid Background="#202020">
+    <Grid Background="#FF59361E">
 
         <!--Разметка-->
 
@@ -89,13 +89,13 @@
         <!--Рамка и надписульки-->
 
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
-             BorderBrush="#101010" BorderThickness="1"
+             BorderBrush="#FF3F2514" BorderThickness="1"
              Margin="10,10,10,10"
-             Background="#101010">
+             Background="#FF3F2514">
             <TextBlock Grid.Row="0"
-                FontFamily="Courier New Bold"
-                Foreground="#4e05ad"
-                FontSize="26"
+                FontFamily="Better VCR Regular"
+                Foreground="Black"
+                FontSize="20"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center">
          Когда рыбачить пойдём?
@@ -105,28 +105,22 @@
         <!--Рамка и выбор-->
 
         <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5"
-             BorderBrush="#101010" BorderThickness="1" CornerRadius="20"
-             Margin="20 10 20 40"
-             Background="#101010">
+             BorderBrush="#FF72492E" BorderThickness="1" CornerRadius="20"
+             Margin="20,10,20,44"
+             Background="#FF3F2514">
             <StackPanel Margin="5 10">
-                <RadioButton FontFamily="Courier New Bold"
+                <RadioButton FontFamily="Better VCR Regular"
                              x:Name="evening"
-                          Foreground="#4e05ad"
-                          FontSize="24"
+                          Foreground="Black"
+                          FontSize="20"
                           Content="Вечером"
                           Checked="Difficulty_Check" Height="45"/>
 
-                <RadioButton FontFamily="Courier New Bold"
+                <RadioButton FontFamily="Better VCR Regular"
                              x:Name="morning"
-                          Foreground="#4e05ad"
-                          FontSize="24"
+                          Foreground="Black"
+                          FontSize="20"
                           Content="Утром"
-                          Checked="Difficulty_Check" Height="45"/>
-                <RadioButton FontFamily="Courier New Bold"
-                             x:Name="night"
-                          Foreground="#4e05ad"
-                          FontSize="24"
-                          Content="Ночью"
                           Checked="Difficulty_Check" Height="45"/>
             </StackPanel>
         </Border>

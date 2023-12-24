@@ -1,11 +1,5 @@
 Avto,999999
-Avto,5527
-Avto,5345
-Avto,2151
-Avto,1706
-Avto,1471
-Avto,1111
-rec,1000
-Avto,79
-Avto,0
+Avto,2730
+NoSmokin,2134
+Avto,254
 Avto,0
