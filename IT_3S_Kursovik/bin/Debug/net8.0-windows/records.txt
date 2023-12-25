@@ -1,6 +1,6 @@
 Avto,999999
-Avto,2730
+Avto,6889
+ЕР,5037
+Baltika,3759
 NoSmokin,2134
-Avto,254
-Avto,0
-Avto,0
+уцкуцкуц,-795

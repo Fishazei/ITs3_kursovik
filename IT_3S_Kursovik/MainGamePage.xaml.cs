@@ -101,6 +101,9 @@ namespace IT_3S_Kursovik
                 // Таймер истек, делаем необходимые действия
                 timer.Stop();
                 gameState.status = GStatus.End;
+                string endsrting;
+                endsrting = gameState.Score > 2100 ? "Сегодня был хороший поклёв!\n" : "В рыбалке главное не улов!\n" + "Вы набрали: ";
+                MessageBox.Show(endsrting + gameState.Score);
                 NavigationService.Navigate(menuPage);
                 GameOver(gameState.Score);
             }

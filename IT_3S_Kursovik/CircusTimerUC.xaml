@@ -18,8 +18,8 @@
 
                 <PointAnimationUsingPath.PathGeometry>
 
-                    <PathGeometry Figures="M 0 -50 A 50 50 0 0 1 0 50
-                                                 A 50 50 0 0 1 0 -50" />
+                    <PathGeometry Figures="M 0 -25 A 50 25 0 0 1 0 25
+                                                 A 25 25 0 0 1 0 -25" />
 
                 </PointAnimationUsingPath.PathGeometry>
 
@@ -48,7 +48,7 @@
             <Path x:Name="progressPath"
                    Fill="Transparent"
                    Stroke="#FEF200"
-                   StrokeThickness="25"
+                   StrokeThickness="15"
                    StrokeStartLineCap="Flat"
                    StrokeEndLineCap="Flat"
                    StrokeLineJoin="Round">
@@ -57,13 +57,13 @@
 
                     <PathGeometry>
 
-                        <PathFigure StartPoint="0 -50"
+                        <PathFigure StartPoint="0 -25"
                                     IsClosed="False">
-    
-                            <LineSegment Point="0 -50" />
+
+                            <LineSegment Point="0 -25" />
 
                             <ArcSegment x:Name="arc"
-                                        Size="50 50"
+                                        Size="25 25"
                                         IsLargeArc="True"
                                         SweepDirection="Clockwise" />
 

@@ -125,7 +125,9 @@
            FontSize="72" 
            TextAlignment="Center" 
            FontFamily="Better VCR Regular" 
-           FontWeight="Bold" Margin="-285,21,0,0" Grid.ColumnSpan="3" Grid.Column="1" Grid.RowSpan="2"><Run Language="ru-ru" Text="Рыбалка 2.0"/></TextBlock>
+           FontWeight="Bold" Margin="-285,21,0,0" Grid.ColumnSpan="3" Grid.Column="1" Grid.RowSpan="2">
+            <Run Language="ru-ru" Text="Рыбалка 2.0"/>
+        </TextBlock>
         <TextBox x:Name="SayMyName"
             Grid.Column="2" HorizontalAlignment="Left" 
                  Margin="35,118,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Avto" 
