@@ -3,3 +3,4 @@ Avto,2730
 NoSmokin,2134
 Avto,254
 Avto,0
+Avto,0

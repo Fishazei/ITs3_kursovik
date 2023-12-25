@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\fisha\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\fisha\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\dns\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dns\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fisha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dns\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fisha\\OneDrive\\Рабочий стол\\ITs3_kursovik-master\\IT_3S_Kursovik\\IT_3S_Kursovik.csproj",
+      "projectUniqueName": "C:\\Users\\dns\\Desktop\\IT_3S_Kursovik\\IT_3S_Kursovik\\IT_3S_Kursovik.csproj",
       "projectName": "IT_3S_Kursovik",
-      "projectPath": "C:\\Users\\fisha\\OneDrive\\Рабочий стол\\ITs3_kursovik-master\\IT_3S_Kursovik\\IT_3S_Kursovik.csproj",
-      "packagesPath": "C:\\Users\\fisha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fisha\\OneDrive\\Рабочий стол\\ITs3_kursovik-master\\IT_3S_Kursovik\\obj\\",
+      "projectPath": "C:\\Users\\dns\\Desktop\\IT_3S_Kursovik\\IT_3S_Kursovik\\IT_3S_Kursovik.csproj",
+      "packagesPath": "C:\\Users\\dns\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dns\\Desktop\\IT_3S_Kursovik\\IT_3S_Kursovik\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dns\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
