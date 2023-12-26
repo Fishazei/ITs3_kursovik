@@ -32,11 +32,7 @@ namespace IT_3S_Kursovik
             difficultyWindow.ShowDialog();
             if (difficultyWindow.Difficulty == 0)
                 return;
-            //mainGamePage = new MainGamePage(this, difficultyWindow.Difficulty);
 
-            //mainGamePage.GameOver += AddToRecords;
-
-            //NavigationService.Navigate(mainGamePage);
 
             mainGlobalMap = new GlobalMap(this, difficultyWindow.Difficulty);
 

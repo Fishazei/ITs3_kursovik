@@ -1,4 +1,5 @@
 ﻿using IT_3S_Kursovik.classes;
+using IT_3S_Kursovik.Game.GlobalMap;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -13,7 +14,7 @@ namespace IT_3S_Kursovik
     /// </summary>
     public partial class MainGamePage : Page
     {
-        MenuPage menuPage = null;
+        GlobalMap global = null;
 
         private TimeSpan duration = TimeSpan.FromMinutes(1);
         private DispatcherTimer timer;
@@ -23,10 +24,10 @@ namespace IT_3S_Kursovik
 
         GameState gameState;
 
-        public MainGamePage(MenuPage menuPage, int diff)
+        public MainGamePage(GlobalMap global, int diff, int modifyi)
         {
             InitializeComponent();
-            this.menuPage = menuPage;
+            this.global = global;
             
             myOptions.mod = diff;
             if (diff == 1)
@@ -104,7 +105,7 @@ namespace IT_3S_Kursovik
                 string endsrting;
                 endsrting = gameState.Score > 2100 ? "Сегодня был хороший поклёв!\n" : "В рыбалке главное не улов!\n" + "Вы набрали: ";
                 MessageBox.Show(endsrting + gameState.Score);
-                NavigationService.Navigate(menuPage);
+                NavigationService.Navigate(global);
                 GameOver(gameState.Score);
             }
         }
@@ -144,7 +145,7 @@ namespace IT_3S_Kursovik
         {
             timer.Stop();
             gameState.status = GStatus.End;
-            NavigationService.Navigate(menuPage);
+            NavigationService.Navigate(global);
             GameOver(gameState.Score);
         }
         private void Resume()

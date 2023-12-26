@@ -10,13 +10,13 @@
     <Compile Update="Game\GlobalMap\GlobalMap.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Game\MainGame\CircusTimerUC.xaml.cs">
+    <Compile Update="CircusTimerUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="menu\DifficultyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Game\MainGame\MainGamePage.xaml.cs">
+    <Compile Update="MainGamePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="menu\MenuPage.xaml.cs">
@@ -25,7 +25,7 @@
     <Compile Update="menu\recordsUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Game\MainGame\PauseUC.xaml.cs">
+    <Compile Update="PauseUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,13 +33,13 @@
     <Page Update="Game\GlobalMap\GlobalMap.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Game\MainGame\CircusTimerUC.xaml">
+    <Page Update="CircusTimerUC.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="menu\DifficultyWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Game\MainGame\MainGamePage.xaml">
+    <Page Update="MainGamePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -51,7 +51,7 @@
     <Page Update="menu\recordsUC.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Game\MainGame\PauseUC.xaml">
+    <Page Update="PauseUC.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

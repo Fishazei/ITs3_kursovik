@@ -121,10 +121,14 @@ namespace IT_3S_Kursovik.Game.GlobalMap
                     games--;
                     tryAvaible--;
                     tryAvaibleTB.Text = "Попыток " + tryAvaible.ToString() + '/' + games.ToString();
-                    //Запуск игры с настройками в зависимости от mapGenerator.matrix[i-1,j-1]
-                    MessageBox.Show($"m[{i - 1},{j - 1}] = {mapGenerator.matrix[i - 1, j - 1]}");
+                   
+                    //Запуск игры с настройками в зависимости от mapGenerator.matrix[i-1,j-1]                  
                     StartGame(mapGenerator.matrix[i - 1, j - 1]);
-
+                    myHook.CheckMePLS -= Cheker;
+                    isThrHook = false;
+                    myHook.DeleteMePLS();
+                    myHook = null;
+                   
                     //Завершение
                     if (games == 0 || tryAvaible == 0) ExitF();
                 }
@@ -210,7 +214,17 @@ namespace IT_3S_Kursovik.Game.GlobalMap
         //Запуск игры
         private void StartGame(int buff)
         {
+            MainGamePage mainGamePage = new MainGamePage(this, diff, buff);
 
+            mainGamePage.GameOver += AddToRecords;
+
+            NavigationService.Navigate(mainGamePage);
+        }
+
+        private void AddToRecords(int buff)
+        {
+            points += buff;
+            pointsTextBlock.Text = "ОР: " + points.ToString();
         }
 
 

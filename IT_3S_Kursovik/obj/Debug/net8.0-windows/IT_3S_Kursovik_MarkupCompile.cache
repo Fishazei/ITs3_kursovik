@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\App.xaml
-8-1170757593
+81388421993
 
-16828026843
+16-1129527748
 198-688555687
-Game\GlobalMap\GlobalMap.xaml;Game\MainGame\CircusTimerUC.xaml;Game\MainGame\MainGamePage.xaml;Game\MainGame\PauseUC.xaml;MainWindow.xaml;menu\DifficultyWindow.xaml;menu\MenuPage.xaml;menu\recordsUC.xaml;
+CircusTimerUC.xaml;Game\GlobalMap\GlobalMap.xaml;MainGamePage.xaml;MainWindow.xaml;menu\DifficultyWindow.xaml;menu\MenuPage.xaml;menu\recordsUC.xaml;PauseUC.xaml;
 
 False
 
