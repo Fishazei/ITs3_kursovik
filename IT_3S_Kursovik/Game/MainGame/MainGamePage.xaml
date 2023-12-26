@@ -40,7 +40,7 @@
 
         <local:CircusTimerUC x:Name="cpb_uc" Margin="84,95,992,492" Grid.RowSpan="2" />
 
-
+        <!-- Кнопки -->
         <Button Style="{StaticResource SomeButtonStyle}" Click="PauseButtonClick" HorizontalAlignment="Left" Margin="1037,5,0,0" VerticalAlignment="Top" Background="#00707070" BorderBrush="#00707070" Height="75" Width="75">
             <Image Source="/assets/pb.png" Height="75" Width="75"/>
         </Button>

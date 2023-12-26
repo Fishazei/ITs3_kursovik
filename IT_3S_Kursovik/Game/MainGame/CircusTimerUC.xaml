@@ -18,7 +18,7 @@
 
                 <PointAnimationUsingPath.PathGeometry>
 
-                    <PathGeometry Figures="M 0 -25 A 50 25 0 0 1 0 25
+                    <PathGeometry Figures="M 0 -25 A 25 25 0 0 1 0 25
                                                  A 25 25 0 0 1 0 -25" />
 
                 </PointAnimationUsingPath.PathGeometry>

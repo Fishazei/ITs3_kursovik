@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\fisha\repos\git\ITs3_kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\
 IT_3S_Kursovik
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\fisha\repos\git\ITs3_kursovik\IT_3S_Kursovik\App.xaml
-7-79745075
+C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\App.xaml
+8-1170757593
 
-161827636003
+18-1281872289
 198-688555687
-CircusTimerUC.xaml;MainGamePage.xaml;MainWindow.xaml;menu\DifficultyWindow.xaml;menu\MenuPage.xaml;menu\recordsUC.xaml;PauseUC.xaml;
+Game\GlobalMap\GlobalMap.xaml;Game\MainGame\CircusTimerUC.xaml;Game\MainGame\MainGamePage.xaml;Game\MainGame\PauseUC.xaml;MainWindow.xaml;menu\DifficultyWindow.xaml;menu\MenuPage.xaml;menu\recordsUC.xaml;
 
 True
 

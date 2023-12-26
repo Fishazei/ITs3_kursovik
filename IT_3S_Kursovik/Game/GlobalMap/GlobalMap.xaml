@@ -1,0 +1,71 @@
+﻿<Page x:Class="IT_3S_Kursovik.Game.GlobalMap.GlobalMap"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IT_3S_Kursovik.Game.GlobalMap"
+      mc:Ignorable="d" 
+        d:DesignHeight="705" d:DesignWidth="1200"
+  Title="GlobalMap"
+  Name="GlobalMap1">
+    <Canvas x:Name="MainCanvas">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/Game/GlobalMap/GlobalMapFon.png"/>
+        </Canvas.Background>
+        <Canvas x:Name="test" Height="630" Canvas.Left="165" Width="1035" HorizontalAlignment="Left" Canvas.Top="61" VerticalAlignment="Top">
+            <Image Name="matrixImage" Stretch="UniformToFill" Height="630" Width="1035"/>
+        </Canvas>
+
+        <Canvas Name="MyCanvas" HorizontalAlignment="Center" Height="705" VerticalAlignment="Center" Width="1200">
+            <Rectangle Name="movingRectangle" Width="100" Height="100" Canvas.Left="47" Canvas.Top="302" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="#FFA571D4" />
+                </Rectangle.Fill>
+            </Rectangle>
+        </Canvas>
+
+        <Image Height="705" Width="1200" Source="/Game/GlobalMap/GlobalMapPeredFon.png" />
+        <TextBlock x:Name="pointsTextBlock"
+               Canvas.Left="17" 
+               Canvas.Top="18" 
+               Height="28" 
+               Width="300" 
+               TextWrapping="Wrap" 
+               FontSize="27"
+               FontFamily="Better VCR Regular"
+               Text="ОР: 0" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Top"/>
+        <TextBlock x:Name="tryAvaibleTB"
+               Canvas.Left="17" 
+               Canvas.Top="46"
+               TextWrapping="Wrap" 
+               FontSize="27"
+               FontFamily="Better VCR Regular" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Center" Width="299"><Run Text="Попыто"/><Run Text="к 5/3"/></TextBlock>
+        <Button x:Name="Exit"
+            Content="Выход" 
+            FontSize="24"
+            FontFamily="Better VCR Regular" 
+            Height="60" 
+            Canvas.Left="330" 
+            Canvas.Top="13" 
+            Width="195" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center" Click="Exit_Click"/>
+        <Button x:Name="Manual"
+        Content="Управление" 
+        FontSize="24"
+        FontFamily="Better VCR Regular" 
+        Height="60" 
+        Canvas.Left="539" 
+        Canvas.Top="13" 
+        Width="195" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Manual_Click"/>
+        <Button x:Name="Regenerate" Canvas.Left="747" Canvas.Top="13" Height="60" Width="195" HorizontalAlignment="Left" VerticalAlignment="Center"
+            Content="Новая" 
+            FontSize="24"
+            FontFamily="Better VCR Regular"/>
+
+    </Canvas>
+</Page>

@@ -81,7 +81,7 @@ namespace IT_3S_Kursovik.classes
         /// </summary>
         /// <param name="PixelBlockSize">масштабирование, по умолчанию один квадрат - 50 пикселей</param>
         /// <returns>Возвращает текстуру водоёма</returns>
-        public WriteableBitmap CreateTexture(int PixelBlockSize = 50)
+        public WriteableBitmap CreateTexture(int PixelBlockSize = 20)
         {
 
             // Размеры текстуры в пикселях, умноженные на размер блока
@@ -99,7 +99,7 @@ namespace IT_3S_Kursovik.classes
                     int value = matrix[i, j];
                     Color color = GetColor(value);
 
-                    // Заполняем область 5x5 пикселей цветом
+                    // Заполняем область nxn пикселей цветом
                     for (int y = 0; y < PixelBlockSize; y++)
                     {
                         for (int x = 0; x < PixelBlockSize; x++)
@@ -121,8 +121,8 @@ namespace IT_3S_Kursovik.classes
         private Color GetColor(int value)
         {
             Color color;
-            if (value == -1) color = Colors.Brown; //Коряги
-            else //Функции вычисления цвета
+            if (value == -1) color = Colors.Brown;
+            else
             {
                 color.A = 255;
                 color.B = (byte)(-4.4 * value + 171);

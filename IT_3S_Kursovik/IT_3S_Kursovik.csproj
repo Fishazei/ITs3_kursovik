@@ -29,6 +29,8 @@
     <None Remove="assets\waterthings\tr2.png" />
     <None Remove="assets\waterthings\tr3.png" />
     <None Remove="FonForMenu.jpg" />
+    <None Remove="Game\GlobalMap\GlobalMapFon.png" />
+    <None Remove="Game\GlobalMap\GlobalMapPeredFon.png" />
     <None Remove="hook.png" />
     <None Remove="kt.png" />
     <None Remove="Pixel-Art-1366x768.jpg" />
@@ -58,6 +60,8 @@
     <Resource Include="assets\waterthings\tr.png" />
     <Resource Include="assets\waterthings\tr2.png" />
     <Resource Include="assets\waterthings\tr3.png" />
+    <Resource Include="Game\GlobalMap\GlobalMapFon.png" />
+    <Resource Include="Game\GlobalMap\GlobalMapPeredFon.png" />
     <Resource Include="hook.png" />
     <Resource Include="kt.png" />
   </ItemGroup>

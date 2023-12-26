@@ -72,11 +72,18 @@
             Style="{StaticResource CommonStyle}"
                 Grid.Column="2" 
                 Grid.Row="1" 
-                Margin="35,282,0,0" 
+                Margin="35,329,0,0" 
                 Content="Выход" 
                 Click="ButtonClickExit"
                 RenderTransformOrigin="0.502,0.592" Height="52" Width="275" />
-
+        <Button x:Name="Manual" 
+            Style="{StaticResource CommonStyle}" 
+                Grid.Column="2" 
+                Grid.Row="1"
+                Content="Обучение"  
+                Margin="35,277,0,0" 
+                VerticalAlignment="Top" Height="52" Width="275" Click="Manual_Click"/>
+        
         <Image  x:Name="rotatingImage" Grid.Column="1" 
                 HorizontalAlignment="Center" VerticalAlignment="Top"
                 Height="350" Margin="0,-24,0,0" Width="119" 

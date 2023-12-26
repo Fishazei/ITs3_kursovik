@@ -1,4 +1,5 @@
 ﻿using IT_3S_Kursovik.classes;
+using IT_3S_Kursovik.Game.GlobalMap;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
@@ -13,7 +14,9 @@ namespace IT_3S_Kursovik
         RecordsHandler recordsHandler = new RecordsHandler();
         Record record;
 
-        MainGamePage mainGamePage = null;
+        //MainGamePage mainGamePage = null;
+
+        GlobalMap mainGlobalMap = null;
 
         public MenuPage()
         {
@@ -29,18 +32,34 @@ namespace IT_3S_Kursovik
             difficultyWindow.ShowDialog();
             if (difficultyWindow.Difficulty == 0)
                 return;
-            mainGamePage = new MainGamePage(this, difficultyWindow.Difficulty);
+            //mainGamePage = new MainGamePage(this, difficultyWindow.Difficulty);
 
-            mainGamePage.GameOver += AddToRecords;
+            //mainGamePage.GameOver += AddToRecords;
 
-            NavigationService.Navigate(mainGamePage);
+            //NavigationService.Navigate(mainGamePage);
+
+            mainGlobalMap = new GlobalMap(this, difficultyWindow.Difficulty);
+
+            mainGlobalMap.GameOver += AddToRecords;
+
+            NavigationService.Navigate(mainGlobalMap);
         }
 
         private void AddToRecords(int score)
         {
-            record.points = mainGamePage.Points();
+            record.points = mainGlobalMap.points;
 
-            recordsHandler.AddRecord(record);
+            if(record.points > 0)
+                recordsHandler.AddRecord(record);
+        }
+
+        private void ToggleButtonsState(bool isEnable)
+        {
+            SayMyName.IsEnabled = isEnable;
+            NewGame.IsEnabled = isEnable;
+            Records.IsEnabled = isEnable;
+            Manual.IsEnabled = isEnable;
+            Exit.IsEnabled = isEnable;
         }
 
         private void ButtonClickRecords(object sender, RoutedEventArgs e)
@@ -50,22 +69,15 @@ namespace IT_3S_Kursovik
             rec.Visibility = Visibility.Visible;
         }
 
-        private void ToggleButtonsState(bool isEnable)
-        {
-            SayMyName.IsEnabled = isEnable;
-            NewGame.IsEnabled = isEnable;
-            Records.IsEnabled = isEnable;
-            Exit.IsEnabled = isEnable;
-        }
-
-        private void ButtonClickFight(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("В разработке");
-        }
-
         private void ButtonClickExit(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void Manual_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleButtonsState(false);
+            //Расписать что да как!
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
