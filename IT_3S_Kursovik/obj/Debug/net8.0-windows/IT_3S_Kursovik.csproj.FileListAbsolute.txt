@@ -274,3 +274,5 @@ C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\refi
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.pdb
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\IT_3S_Kursovik.genruntimeconfig.cache
 C:\Users\dns\Desktop\IT_3S_Kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\ref\IT_3S_Kursovik.dll
+C:\Users\fisha\repos\git\ITs3_kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\Game\GlobalMap\GlobalMap.g.cs
+C:\Users\fisha\repos\git\ITs3_kursovik\IT_3S_Kursovik\obj\Debug\net8.0-windows\Game\GlobalMap\GlobalMap.baml
