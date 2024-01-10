@@ -2,8 +2,10 @@ Avto,999999
 Avto,6889
 ЕР,5037
 Baltika,3759
+Avto,3395
 NoSmokin,2134
 Avto,646
 Avto,181
+Avto,177
 Avto,0
 уцкуцкуц,-795

@@ -24,7 +24,7 @@ namespace IT_3S_Kursovik
 
         GameState gameState;
 
-        public MainGamePage(GlobalMap global, int diff, int modifyi)
+        public MainGamePage(GlobalMap global, int diff, int modify)
         {
             InitializeComponent();
             this.global = global;
@@ -32,16 +32,18 @@ namespace IT_3S_Kursovik
             myOptions.mod = diff;
             if (diff == 1)
             {
-                myOptions.spawnProd = 5;
+                myOptions.spawnProd = 3 + modify;
                 myOptions.fishChan = 55;
             }
             else
             {
-                myOptions.spawnProd = 8;
+                myOptions.spawnProd = 6 + modify;
                 myOptions.fishChan = 65;
 
             }
             if (myOptions.mod == 2) overlayGrid.Visibility = Visibility.Visible;
+
+            MessageBox.Show("v " + myOptions.spawnProd);
 
             DinB.IsEnabled = false;
             DinB.Visibility = Visibility.Collapsed;
