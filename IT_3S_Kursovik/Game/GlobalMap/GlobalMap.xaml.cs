@@ -202,8 +202,7 @@ namespace IT_3S_Kursovik.Game.GlobalMap
                     tryAvaibleTB.Text = "Попыток " + tryAvaible.ToString() + '/' + games.ToString();
                 }
 
-        }
-        
+        }  
         //Выход в меню
         private void ExitF()
         {
@@ -227,7 +226,6 @@ namespace IT_3S_Kursovik.Game.GlobalMap
             pointsTextBlock.Text = "ОР: " + points.ToString();
         }
 
-
         private async Task GameLoop()
         {
             while (true)
@@ -250,8 +248,7 @@ namespace IT_3S_Kursovik.Game.GlobalMap
         }
 
         private void Manual_Click(object sender, RoutedEventArgs e)
-        {
-
+        { 
             MessageBox.Show("WASD - движение пероснажа; SPACE - забрасывание/подтягивание поплавка; E(У) - начало поклёва;\n" +
                             "Чем темнее клета - тем больше рыбы. Коричневые клетки - коряги, об которые тратятся жизни.\n" +
                             "Всего есть 5 жизней, максимум можно прорыбачить 3 раза, остальные - запасные! Удачной игры!\n");
@@ -259,5 +256,15 @@ namespace IT_3S_Kursovik.Game.GlobalMap
 
         public delegate void Handler(int alpha);
         public event Handler GameOver;
+
+        private void Regenerate_Click(object sender, RoutedEventArgs e)
+        {
+            CreateTexture();
+        }
+
+        private void Page_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keyboard.IsKeyDown(Key.Space)) e.Handled = true;
+        }
     }
 }

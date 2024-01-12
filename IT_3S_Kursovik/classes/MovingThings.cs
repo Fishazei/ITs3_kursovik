@@ -2,7 +2,6 @@
 using System.Windows.Media;
 using System.Windows.Controls;
 
-
 namespace IT_3S_Kursovik.classes
 {
     internal abstract class MovingObject

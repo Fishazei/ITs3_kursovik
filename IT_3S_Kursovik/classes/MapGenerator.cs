@@ -74,7 +74,7 @@ namespace IT_3S_Kursovik.classes
         /// <summary>
         /// Создание текстуры водоёма
         /// </summary>
-        /// <param name="PixelBlockSize">масштабирование, по умолчанию один квадрат - 50 пикселей</param>
+        /// <param name="PixelBlockSize">масштабирование, по умолчанию один квадрат - 20 пикселей</param>
         /// <returns>Возвращает текстуру водоёма</returns>
         public WriteableBitmap CreateTexture(int PixelBlockSize = 20)
         {
