@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Media.Imaging;
+﻿using System.Windows.Media.Imaging;
 using System.Windows.Media;
 using System.Windows.Controls;
-using System.Security.AccessControl;
-using System.Security.Cryptography.X509Certificates;
+
 
 namespace IT_3S_Kursovik.classes
 {
