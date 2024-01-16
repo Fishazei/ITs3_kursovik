@@ -43,8 +43,6 @@ namespace IT_3S_Kursovik
             }
             if (myOptions.mod == 2) overlayGrid.Visibility = Visibility.Visible;
 
-            MessageBox.Show("v " + myOptions.spawnProd);
-
             DinB.IsEnabled = false;
             DinB.Visibility = Visibility.Collapsed;
             gameState = new GameState(myOptions, RiverHold, overlayGrid, rec1, rope);

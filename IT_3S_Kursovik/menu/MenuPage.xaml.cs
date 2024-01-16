@@ -54,7 +54,6 @@ namespace IT_3S_Kursovik
             SayMyName.IsEnabled = isEnable;
             NewGame.IsEnabled = isEnable;
             Records.IsEnabled = isEnable;
-            Manual.IsEnabled = isEnable;
             Exit.IsEnabled = isEnable;
         }
 

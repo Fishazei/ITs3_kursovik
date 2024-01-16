@@ -30,6 +30,7 @@ namespace IT_3S_Kursovik.classes
 
         public void AddRecord(Record newRez)
         {
+            if (records.Count > 10) return;
             int i;
             for (i = 0; i < records.Count; i++)
                 if (records[i].points < newRez.points) break;
@@ -52,7 +53,8 @@ namespace IT_3S_Kursovik.classes
             {
                 i++;
                 if (i < 10) str += i.ToString() + ".  " + rec.ToString();
-                else str += i.ToString() + ". " + rec.ToString();
+                else if (i == 10) str += i.ToString() + ". " + rec.ToString();
+                else break;
             }
             return str;
         }
