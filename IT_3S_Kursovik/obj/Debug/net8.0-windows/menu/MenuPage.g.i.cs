@@ -110,7 +110,7 @@ namespace IT_3S_Kursovik {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/IT_3S_Kursovik;V1.0.0.0;component/menu/menupage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/IT_3S_Kursovik;component/menu/menupage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\menu\MenuPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

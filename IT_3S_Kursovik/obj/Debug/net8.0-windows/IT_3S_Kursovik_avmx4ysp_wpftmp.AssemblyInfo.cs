@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IT_3S_Kursovik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+167cfd23023cb44c91a42e667a6483e38ad604ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("IT_3S_Kursovik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IT_3S_Kursovik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
